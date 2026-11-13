@@ -1,0 +1,5 @@
+[
+  { "id": 1, "icon": "stepDestination", "title": "Choose Destination", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus." },
+  { "id": 2, "icon": "stepPayment", "title": "Make Payment", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus." },
+  { "id": 3, "icon": "stepAirport", "title": "Reach Airport on Selected Date", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus." }
+]

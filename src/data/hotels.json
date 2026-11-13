@@ -1,0 +1,6 @@
+[
+  { "id": 1, "image": "rome", "title": "Hotel Colosseo", "city": "Rome, Italy", "price": "$120 / night" },
+  { "id": 2, "image": "london", "title": "Westminster Inn", "city": "London, UK", "price": "$180 / night" },
+  { "id": 3, "image": "europe", "title": "Helsinki Harbour", "city": "Helsinki, Finland", "price": "$140 / night" },
+  { "id": 4, "image": "greece", "title": "Santorini View", "city": "Oia, Greece", "price": "$210 / night" }
+]

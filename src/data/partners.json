@@ -1,0 +1,7 @@
+[
+  { "id": 1, "logo": "logoAxon", "name": "Axon Airlines" },
+  { "id": 2, "logo": "logoJetstar", "name": "Jetstar" },
+  { "id": 3, "logo": "logoExpedia", "name": "Expedia" },
+  { "id": 4, "logo": "logoQantas", "name": "Qantas" },
+  { "id": 5, "logo": "logoAlitalia", "name": "Alitalia" }
+]

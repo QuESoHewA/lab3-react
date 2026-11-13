@@ -1,0 +1,38 @@
+.card {
+  background: var(--white);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  transition: transform 0.25s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
+
+.image {
+  width: 100%;
+  aspect-ratio: 314 / 326;
+  object-fit: cover;
+}
+
+.body {
+  padding: 28px 24px 36px;
+  display: grid;
+  gap: 16px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+}
+
+.title,
+.aside {
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--muted);
+}

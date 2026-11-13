@@ -1,0 +1,7 @@
+[
+  { "id": "home", "label": "Home" },
+  { "id": "destinations", "label": "Desitnations" },
+  { "id": "hotels", "label": "Hotels" },
+  { "id": "flights", "label": "Flights" },
+  { "id": "bookings", "label": "Bookings" }
+]

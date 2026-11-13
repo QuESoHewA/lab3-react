@@ -1,0 +1,10 @@
+.container {
+  width: 100%;
+  max-width: calc(var(--container) + 2 * var(--gutter));
+  margin: 0 auto;
+  padding-inline: var(--gutter);
+}
+
+.spacing {
+  padding-block: calc(var(--section-gap) / 2);
+}

@@ -1,0 +1,141 @@
+.navbar {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 130px;
+}
+
+.logo {
+  border: 0;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 38px;
+  letter-spacing: -1.5px;
+  color: var(--text);
+}
+
+.logo span {
+  color: var(--orange);
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: clamp(24px, 4vw, 56px);
+}
+
+.links {
+  display: flex;
+  gap: clamp(24px, 4vw, 56px);
+}
+
+.link {
+  border: 0;
+  background: none;
+  padding: 6px 0;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 17px;
+  color: var(--text);
+  border-bottom: 2px solid transparent;
+}
+
+.link:hover,
+.active {
+  border-bottom-color: var(--orange);
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.lang {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+  font-size: 17px;
+  color: var(--text);
+}
+
+.toggle {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  border: 0;
+  background: none;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.toggle span {
+  width: 26px;
+  height: 2px;
+  background: var(--text);
+  border-radius: 2px;
+  transition: transform 0.25s ease, opacity 0.25s ease;
+}
+
+.toggleOpen span:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+
+.toggleOpen span:nth-child(2) {
+  opacity: 0;
+}
+
+.toggleOpen span:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+@media (max-width: 1024px) {
+  .navbar {
+    min-height: 90px;
+  }
+
+  .toggle {
+    display: flex;
+  }
+
+  .menu {
+    position: absolute;
+    top: 100%;
+    left: var(--gutter);
+    right: var(--gutter);
+    flex-direction: column;
+    align-items: stretch;
+    gap: 16px;
+    padding: 24px;
+    background: var(--white);
+    border-radius: 16px;
+    box-shadow: var(--shadow);
+    display: none;
+  }
+
+  .menuOpen {
+    display: flex;
+  }
+
+  .links {
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .link {
+    width: 100%;
+    text-align: left;
+    padding: 10px 0;
+  }
+
+  .actions {
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+}

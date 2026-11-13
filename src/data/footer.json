@@ -1,0 +1,18 @@
+{
+  "tagline": "Book your trip in minute, get full Control for much longer.",
+  "columns": [
+    { "title": "Company", "links": ["About", "Careers", "Mobile"] },
+    { "title": "Contact", "links": ["Help/FAQ", "Press", "Affilates"] },
+    { "title": "More", "links": ["Airlinefees", "Airline", "Low fare tips"] }
+  ],
+  "socials": [
+    { "icon": "facebook", "label": "Facebook" },
+    { "icon": "instagram", "label": "Instagram" },
+    { "icon": "twitter", "label": "Twitter" }
+  ],
+  "apps": [
+    { "icon": "googlePlay", "label": "Get it on Google Play" },
+    { "icon": "appStore", "label": "Available on the Apple Store" }
+  ],
+  "copyright": "All rights reserved@jadoo.co"
+}

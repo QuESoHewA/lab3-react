@@ -1,0 +1,5 @@
+[
+  { "id": 1, "image": "rome", "title": "Rome, Italty", "price": "$5,42k", "days": 10 },
+  { "id": 2, "image": "london", "title": "London, UK", "price": "$4.2k", "days": 12 },
+  { "id": 3, "image": "europe", "title": "Full Europe", "price": "$15k", "days": 28 }
+]

@@ -1,0 +1,8 @@
+{
+  "image": "greece",
+  "title": "Trip To Greece",
+  "dates": "14-29 June",
+  "author": "by Robbin joseph",
+  "people": 24,
+  "ongoing": { "image": "romeAvatar", "title": "Trip to rome", "progress": 40 }
+}
